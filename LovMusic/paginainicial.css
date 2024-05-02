@@ -18,11 +18,11 @@ body{
 }
 
 header{
-    background-color: var(--cor01);
-    min-height: 100px;
+    background-color: var(--cor);
+    min-height: 75px;
     text-align: center;
     padding-top: 40px;
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to right, var(--cor01), var(--cor02));
     
 }
 header  h1{
@@ -40,7 +40,9 @@ nav > a:hover{
 nav{   
     
     padding: 10px;
-   background-color: var(--cor01);
+    margin-bottom: 20px;
+   background-image: linear-gradient(to right, var(--cor01), var(--cor02));
+
 }
 
 nav > a{
