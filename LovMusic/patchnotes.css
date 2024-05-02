@@ -1,30 +1,29 @@
 @charset "UTF-8";
 
+
 :root{
-   --cor0: #FF2CDC;
-   --cor01: #c528e86b;
-   --cor02:#a639ffcb;
-   --cor03:#5b28e8fd;
-   --cor04:#2C2CFF;
-   --cor05: #5b28e821;
+    --cor0: #FF2CDC;
+    --cor01: #c528e86b;
+    --cor02:#a639ffcb;
+    --cor03:#5C28E8;
+    --cor04:#2C2CFF;
 }
 
 *{
     margin: 0px;
     padding: 0px;
 }
+
 body{
-    background-color:white;
+    background-color: white;
     background-image: linear-gradient(to right, var(--cor01), var(--cor02));
 }
 
 header{
-    
+    background-color: var(--cor);
     min-height: 75px;
     text-align: center;
     padding-top: 40px;
-    margin: auto;
-    
     background-image: linear-gradient(to right, var(--cor01), var(--cor02));
     
 }
@@ -36,19 +35,14 @@ header  h1{
     font-weight: normal;
 
 }
-img{
-    width: 120px;
-    
-}
 nav > a:hover{
     background-color: var(--cor01);
 }
 
 nav{   
-    font-family: Arial, Helvetica, sans-serif;
+    
     padding: 10px;
     margin-bottom: 20px;
-    
    background-image: linear-gradient(to right, var(--cor01), var(--cor02));
 
 }
@@ -75,49 +69,20 @@ main{
     border-bottom-right-radius: 10px;
 }
 
-main > article > h1.nome{
+main > article > h1{
 color:white;
-font-size: 45px;
+font-size: 30px;
 text-align: start;
 padding-bottom: 14px;
 }
-main > article > div{
-    background-color: var(--cor05);
-    text-align: justify;
-    border-radius: 6px;
-    padding: 10px;
-    
-    margin: auto;
-}
-main > article > div > h1{
+
+main > article > h1{
 color: white;
 text-align: start;
 margin-left: 30px;
-font-weight: bold;
 }
  
-main > article > div > p{
+main > article > p{
     color: white;
-    text-align: justify;
     
-}
-footer{
-color: white;
-
-}
-
-footer a{
-    text-decoration: none;
-}
-
-h2.comando{
- color: white;
-}
-
-ul{
-    color: white;
-}
-
-ul > li{
-
 }
