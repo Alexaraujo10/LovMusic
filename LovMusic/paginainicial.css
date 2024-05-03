@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+
+
+
+
 :root{
    --cor0: #FF2CDC;
    --cor01: #c528e86b;
@@ -7,6 +11,9 @@
    --cor03:#5b28e8fd;
    --cor04:#2C2CFF;
    --cor05: #5b28e821;
+
+   
+   
 }
 
 *{
@@ -16,6 +23,7 @@
 body{
     background-color:white;
     background-image: linear-gradient(to right, var(--cor01), var(--cor02));
+    
 }
 
 header{
@@ -24,8 +32,10 @@ header{
     text-align: center;
     padding-top: 40px;
     margin: auto;
-    
     background-image: linear-gradient(to right, var(--cor01), var(--cor02));
+
+    
+
     
 }
 header  h1{
@@ -34,10 +44,13 @@ header  h1{
     margin-bottom: 20px;
     font-size: 35px;
     font-weight: normal;
+    
+    
 
 }
 img{
     width: 120px;
+    
     
 }
 nav > a:hover{
@@ -130,6 +143,3 @@ ul{
     color: white;
 }
 
-ul > li{
-
-}

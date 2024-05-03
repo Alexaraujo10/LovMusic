@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 :root{
     --cor0: #FF2CDC;
@@ -7,6 +8,8 @@
     --cor02:#a639ffcb;
     --cor03:#5C28E8;
     --cor04:#2C2CFF;
+
+    --fonte:'Shadow Into Light Static'
 }
 
 *{
@@ -35,6 +38,9 @@ header  h1{
     font-weight: normal;
 
 }
+
+
+
 nav > a:hover{
     background-color: var(--cor01);
 }
