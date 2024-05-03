@@ -120,10 +120,9 @@ main > article > div > p{
 }
 
 main > article > img.fotobot2{
-  position: absolute;
-  right: 540px;
-  bottom: 260px;
-  width: 180px;
+    position:fixed;
+ right: 900px;
+ 
 }
 
 h2.comando{
