@@ -121,6 +121,9 @@ footer a.ney:hover{
 footer a.alex:hover{
     color: var(--cor03);
 }
+footer a.erick:hover{
+    color: var(--cor04);
+}
 footer{
 color: white;
 
