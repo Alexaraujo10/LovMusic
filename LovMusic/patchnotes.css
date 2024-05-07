@@ -9,7 +9,7 @@
     --cor03:#5C28E8;
     --cor04:#2C2CFF;
 
-    --fonte:'Shadow Into Light Static'
+    --fonte:'Shadow Into Light'
 }
 
 *{
@@ -34,8 +34,9 @@ header  h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: normal;
+    font-family:  Shadows Into Light;
 
 }
 
