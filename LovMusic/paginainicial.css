@@ -11,7 +11,7 @@
    --cor03:#5b28e8fd;
    --cor04:#2C2CFF;
    --cor05: #5b28e821;
-
+--corteste:#2284E6;
    
    
 }
@@ -173,6 +173,9 @@ footer a.alex:hover{
 }
 footer a.erick:hover{
     color: var(--cor04);
+}
+footer a.ney2:hover{
+    color: rgb(255, 0, 242);
 }
 footer{
     position: fixed;
