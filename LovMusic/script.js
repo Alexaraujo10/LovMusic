@@ -7,5 +7,5 @@ function carregar() {
         
         document.body.style.background = '#45137eb9'
 
-    } 
+    }
 }
